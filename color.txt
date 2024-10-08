@@ -1,0 +1,6 @@
+color grey, all
+
+# 将 B-factor 小于 0.5 的氨基酸着色为 C8E1FB 色
+select low_bfactor, b < 0.5
+set_color light_blue, [200, 225, 251]  # 定义 C8E1FB 色（RGB）
+color light_blue, low_bfactor
