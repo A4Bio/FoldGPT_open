@@ -103,7 +103,7 @@ One can use this script to generate protein structures from noise. The molel wil
 ```
 CUDA_VISIBLE_DEVICES=0 python sampling.py --save_path results/conditional --config model_zoom/conditional/config.yaml --checkpoint model_zoom/conditional/params.ckpt --temperature 0.5 --length 150 --nums 20 --mask_mode conditional --template 8vrwB.pdb --mask 39-51,85-98
 ```
-One can use this script to generate protein structures from noise. The molel will save **`nums`** generated pdbs in **`save_path`**, the sampling temperature is 0.5, the protein contains 150 residues. The structure template is **`xxx.pdb`**, where residues in **`39-51`** and **`85-98`** are masked.
+One can use this script to generate protein structures from noise. The molel will save **`nums`** generated pdbs in **`save_path`**, the sampling temperature is 0.5. The structure template is **`xxx.pdb`**, where residues in **`39-51`** and **`85-98`** are masked.
 
 | Name| Fig | Comment |
 |:-----------------:|:----------------------:|:-------------------:|
