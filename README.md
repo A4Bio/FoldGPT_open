@@ -66,7 +66,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project aims to generate protein structures using FoldLanguage via a GPT model. Here's why we introduce FoldGPT:
+This project aims to generate protein structures using [FoldLanguage](https://github.com/A4Bio/FoldToken_open) via a GPT model. Here's why we introduce FoldGPT:
 * <font color="#D79B00">Condition Token</font>: encoding full information (seq, struct, and func) of the known residues.
 * <font color="#82B366">Prompt Token</font>: encoding partial information (seq or func) of residues.
 * <font color="#808080">Mask Token</font>: used for learning the feature of unkown residues.
